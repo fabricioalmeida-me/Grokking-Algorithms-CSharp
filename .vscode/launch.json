@@ -13,7 +13,8 @@
       "args": [],
       "cwd": "${workspaceFolder}/src/Chapter01/Binary-Search",
       "stopAtEntry": false,
-      "console": "internalConsole"
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart"
     }
   ]
 }

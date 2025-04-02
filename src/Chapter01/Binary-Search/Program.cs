@@ -2,14 +2,16 @@
 {
   public static void Main(string[] args)
   {
-    var myList = new List<int>{1,2,3,4,5,6,7,8,9,10};
-    var number = BinarySearch(myList, 7);
-    if (number is not null)
+    var number = 6;
+    var myList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    var index = BinarySearch(myList, number);
+    if (index.HasValue)
     {
-      Console.WriteLine(number);  
-    } else 
+      Console.WriteLine($"The number {number} was found at index {index}.");
+    }
+    else
     {
-      Console.WriteLine("Esse numero não existe em nossa lista");
+      Console.WriteLine("The number was not found in the list.");
     }
   }
 
@@ -23,7 +25,7 @@
       var mid = (low + high) / 2;
       var guess = list[mid];
       if (guess == item) return mid;
-      if (guess > item) 
+      if (guess > item)
       {
         high = mid - 1;
       }
