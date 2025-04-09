@@ -5,13 +5,25 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": ".NET Core Launch (console)",
+      "name": ".NET Core Launch (BinarySearch)",
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceFolder}/src/Chapter01/Binary-Search/bin/Debug/net9.0/Binary-Search.dll",
+      "program": "${workspaceFolder}/src/Chapter01/BinarySearch/bin/Debug/net9.0/BinarySearch.dll",
       "args": [],
-      "cwd": "${workspaceFolder}/src/Chapter01/Binary-Search",
+      "cwd": "${workspaceFolder}/src/Chapter01/BinarySearch",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": ".NET Core Launch (SelectionSort)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/Chapter02/SelectionSort/bin/Debug/net9.0/SelectionSort.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/Chapter02/SelectionSort",
       "stopAtEntry": false,
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart"
