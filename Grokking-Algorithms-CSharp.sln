@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopSumTests", "tests\Chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveSumTests", "tests\Chapter04\DivideAndConquer\RecursiveSumTests\RecursiveSumTests.csproj", "{D7ED8DC0-CFA0-491D-93EE-24999245CA25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveMax", "src\Chapter04\DivideAndConquer\RecursiveMax\RecursiveMax.csproj", "{6D3BC274-0E41-47CB-BA85-CA134371BAAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,18 @@ Global
 		{D7ED8DC0-CFA0-491D-93EE-24999245CA25}.Release|x64.Build.0 = Release|Any CPU
 		{D7ED8DC0-CFA0-491D-93EE-24999245CA25}.Release|x86.ActiveCfg = Release|Any CPU
 		{D7ED8DC0-CFA0-491D-93EE-24999245CA25}.Release|x86.Build.0 = Release|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Release|x64.Build.0 = Release|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,5 +207,6 @@ Global
 		{AEA3EB17-C110-3B0C-2E77-9EE07BB86834} = {5930251E-0A5A-BED9-B6DC-EBDAACC54FF4}
 		{0D54107D-8981-4D73-A120-5567246ECF9F} = {AEA3EB17-C110-3B0C-2E77-9EE07BB86834}
 		{D7ED8DC0-CFA0-491D-93EE-24999245CA25} = {AEA3EB17-C110-3B0C-2E77-9EE07BB86834}
+		{6D3BC274-0E41-47CB-BA85-CA134371BAAE} = {44E5703B-C3C9-11BB-7337-83F1E6C7D29C}
 	EndGlobalSection
 EndGlobal
