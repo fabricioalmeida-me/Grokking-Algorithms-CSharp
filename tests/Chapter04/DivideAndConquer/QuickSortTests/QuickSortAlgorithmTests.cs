@@ -1,9 +1,8 @@
-﻿using Xunit;
-using SelectionSort;
+﻿using QuickSort;
 
-namespace SelectionSortTests;
+namespace QuickSortTests;
 
-public class SelectionSortAlgorithmTests
+public class QuickSortAlgorithmTests
 {
     [Fact]
     public void ShouldReturnSortedList()
@@ -12,7 +11,7 @@ public class SelectionSortAlgorithmTests
         var inputList = new List<int> { 10, 5, 3, 6, 2 };
         var expectedList = new List<int> { 2, 3, 5, 6, 10 };
         //Act
-        var result = SelectionSortAlgorithm.SortList(inputList);
+        var result = QuickSortAlgorithm.SortList(inputList);
 
         //Assert
         Assert.Equal(expectedList, result);
