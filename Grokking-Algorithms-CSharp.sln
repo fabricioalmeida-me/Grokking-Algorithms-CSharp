@@ -69,6 +69,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashTable", "HashTable", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceOfGroceriesTests", "tests\Chapter05\HashTable\PriceOfGroceriesTests\PriceOfGroceriesTests.csproj", "{4CD644EA-6118-4FAA-8624-1724EAA6B12F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckVoter", "src\Chapter05\HashTable\CheckVoter\CheckVoter.csproj", "{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,18 @@ Global
 		{4CD644EA-6118-4FAA-8624-1724EAA6B12F}.Release|x64.Build.0 = Release|Any CPU
 		{4CD644EA-6118-4FAA-8624-1724EAA6B12F}.Release|x86.ActiveCfg = Release|Any CPU
 		{4CD644EA-6118-4FAA-8624-1724EAA6B12F}.Release|x86.Build.0 = Release|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Debug|x64.Build.0 = Debug|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Release|x64.ActiveCfg = Release|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Release|x64.Build.0 = Release|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -295,5 +309,6 @@ Global
 		{82F17274-2565-00B4-1CDA-D90ADFD46EBD} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{EC0C66AB-F488-779D-060D-2028DBBB0BDD} = {82F17274-2565-00B4-1CDA-D90ADFD46EBD}
 		{4CD644EA-6118-4FAA-8624-1724EAA6B12F} = {EC0C66AB-F488-779D-060D-2028DBBB0BDD}
+		{0FDA4168-CC5E-46FB-94D9-B38E2B6B74F4} = {85BE12B0-58EC-32FF-0832-9A48A2BE2414}
 	EndGlobalSection
 EndGlobal
