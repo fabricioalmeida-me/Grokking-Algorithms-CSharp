@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveMax", "src\Chapter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveMaxTests", "tests\Chapter04\DivideAndConquer\RecursiveMaxTests\RecursiveMaxTests.csproj", "{9C2C84C6-7B02-4C25-B92C-FDF09C635414}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "src\Chapter04\DivideAndConquer\QuickSort\QuickSort.csproj", "{DDF6D3EA-34A5-4437-AF06-E45460C81966}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,18 @@ Global
 		{9C2C84C6-7B02-4C25-B92C-FDF09C635414}.Release|x64.Build.0 = Release|Any CPU
 		{9C2C84C6-7B02-4C25-B92C-FDF09C635414}.Release|x86.ActiveCfg = Release|Any CPU
 		{9C2C84C6-7B02-4C25-B92C-FDF09C635414}.Release|x86.Build.0 = Release|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Debug|x64.Build.0 = Debug|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Debug|x86.Build.0 = Debug|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Release|x64.ActiveCfg = Release|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Release|x64.Build.0 = Release|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Release|x86.ActiveCfg = Release|Any CPU
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,5 +237,6 @@ Global
 		{D7ED8DC0-CFA0-491D-93EE-24999245CA25} = {AEA3EB17-C110-3B0C-2E77-9EE07BB86834}
 		{6D3BC274-0E41-47CB-BA85-CA134371BAAE} = {44E5703B-C3C9-11BB-7337-83F1E6C7D29C}
 		{9C2C84C6-7B02-4C25-B92C-FDF09C635414} = {AEA3EB17-C110-3B0C-2E77-9EE07BB86834}
+		{DDF6D3EA-34A5-4437-AF06-E45460C81966} = {44E5703B-C3C9-11BB-7337-83F1E6C7D29C}
 	EndGlobalSection
 EndGlobal
